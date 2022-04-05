@@ -1,0 +1,58 @@
+$i: 1;
+$index: 1;
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 3rem;
+    
+}
+
+h2{
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-size: 4.5rem;
+    border-left:  #d85a5b 2em;
+}
+
+.inner-tittle{
+    margin-top: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3rem;
+}
+
+$colors: #d85a5b, #ffffff, #957777, #000000;
+
+@each $color in $colors {
+    .text-item-#{$index}{
+        font-family: 'Raleway', sans-serif;
+        font-weight: 300;
+        font-size: 1.3rem;
+        text-decoration: none;
+        color: $color;
+        margin-bottom: 3.5rem;
+    }
+    $index: $index + 1;
+}
+
+%button{
+    border-radius: 1.3em;
+    padding: .5em;
+}
+
+@each $var in #d85a5b, #ffffff{
+    .btn-#{$i}{
+        @extend %button;
+        font-size: 1.5rem;
+        background-color: $var;
+        margin-right: 3rem;
+        @if ($var == #ffffff) {
+            border-bottom: solid 1px;
+        }
+    }
+    $i: $i + 1;
+}
+
+@for $var from 1 to 6 {
+    .ml-#{$var}{
+        margin-left: $var+rem;
+    }
+}

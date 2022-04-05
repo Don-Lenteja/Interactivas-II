@@ -1,0 +1,92 @@
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 3rem;
+}
+
+h2 {
+  font-family: "Familjen Grotesk", sans-serif;
+  font-size: 4.5rem;
+  border-left: #d85a5b 2em;
+}
+
+.inner-tittle {
+  margin-top: 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 3rem;
+}
+
+.text-item-1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: #d85a5b;
+  margin-bottom: 3.5rem;
+}
+
+.text-item-2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: #ffffff;
+  margin-bottom: 3.5rem;
+}
+
+.text-item-3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: #957777;
+  margin-bottom: 3.5rem;
+}
+
+.text-item-4 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: #000000;
+  margin-bottom: 3.5rem;
+}
+
+.btn-2, .btn-1 {
+  border-radius: 1.3em;
+  padding: 0.5em;
+}
+
+.btn-1 {
+  font-size: 1.5rem;
+  background-color: #d85a5b;
+  margin-right: 3rem;
+}
+
+.btn-2 {
+  font-size: 1.5rem;
+  background-color: #ffffff;
+  margin-right: 3rem;
+  border-bottom: solid 1px;
+}
+
+.ml-1 {
+  margin-left: 1rem;
+}
+
+.ml-2 {
+  margin-left: 2rem;
+}
+
+.ml-3 {
+  margin-left: 3rem;
+}
+
+.ml-4 {
+  margin-left: 4rem;
+}
+
+.ml-5 {
+  margin-left: 5rem;
+}
+
+/*# sourceMappingURL=style.css.map */
